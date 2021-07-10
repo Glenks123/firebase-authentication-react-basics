@@ -14,4 +14,4 @@ firebase.initializeApp(firebaseConfig);
 
 // make auth and firestore references
 export const auth = firebase.auth(); // initializing the auth service and storing a reference to that right here in the constant auth
-export const db = firebase.firestore(); // using this constant to communicate with the database
+export const db = firebase.firestore();
