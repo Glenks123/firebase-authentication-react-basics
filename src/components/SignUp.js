@@ -13,7 +13,6 @@ const SignUp = () => {
       ...signUpInfo,
       [e.target.name]: e.target.value,
     });
-    console.log(signUpInfo);
   };
 
   const authSignUp = (e) => {
